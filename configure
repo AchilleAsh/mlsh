@@ -1,0 +1,5 @@
+rm build -r
+rm bin -r
+mkdir build
+cd build/
+cmake ..

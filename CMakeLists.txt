@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8)
+project (mlsh)
+set(EXECUTABLE_OUTPUT_PATH ../bin/)
+set(CMAKE_C_FLAGS "${CMAKE_FLAGS} -std=gnu99 -O2")
+add_executable (mlsh src/mlsh.c src/structures.c src/structures.h src/utils.h)
